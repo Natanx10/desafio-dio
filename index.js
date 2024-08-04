@@ -1,4 +1,5 @@
-// Lista de Herois
+// Lista de Herois e XP
+
 let Herois = [["Persival ", 1000],
              ["Mardock ", 1679],
              ["Laster ", 2345],
@@ -13,8 +14,9 @@ let Herois = [["Persival ", 1000],
 
 
 //Variavel de escolhas
-let Escolhido = Herois[5][0]
-let Xp = Herois [5][1]
+
+let Escolhido = Herois[6][0]
+let Xp = Herois [6][1]
 let Nivel = "Fantasma"
 
 //Estrutura de decisão
@@ -38,5 +40,4 @@ else if (Xp>=9001){Nivel="Radiante ";}
   
 //Mensagem de saída
 
-console.log("O Heroi com o nome " + Escolhido +
-            ",está no nivel " + Nivel)
+console.log("O Heroi com o nome " + Escolhido + "está no nivel " + Nivel)
